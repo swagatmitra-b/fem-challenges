@@ -1,0 +1,211 @@
+@import url("https://fonts.googleapis.com/css2?family=Space+Mono:wght@700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Space Mono", monospace;
+  background-color: hsl(185, 41%, 84%);
+  max-width: 100%;
+}
+
+.container {
+  position: relative;
+  top: 210px;
+  max-width: 650px;
+  min-height: 320px;
+  margin: 0 auto;
+  background-color: white;
+  display: flex;
+  padding: 17px 20px;
+  border-radius: 10px;
+}
+
+.wrapper-right {
+  padding: 20px 7px;
+  border-radius: 10px;
+  width: 350px;
+  background-color: hsl(183, 100%, 15%);
+}
+
+.amount {
+  display: flex;
+  flex: 1;
+  justify-content: space-evenly;
+  gap: 40px;
+  padding-top: 20px;
+}
+
+.total {
+  padding-top: 20px;
+  display: flex;
+  justify-content: space-evenly;
+  gap: 65px;
+}
+
+#reset {
+  position: relative;
+  padding: 9px 100px;
+  background-color: hsl(172, 67%, 45%);
+  border: none;
+  border-radius: 5px;
+  font-weight: 700;
+  margin-top: 50px;
+  margin-bottom: 30px;
+  top: 25px;
+  left: 25px;
+  font-family: "Space Mono", monospace;
+  color: hsl(183, 100%, 15%);
+  letter-spacing: 0.15rem;
+}
+
+#reset:hover {
+  cursor: pointer;
+  background-color: hsl(160, 58%, 78%);
+}
+
+.left-1 h4,
+.left-2 h4 {
+  color: white;
+  font-size: 0.7rem;
+}
+
+#total,
+#amount {
+  position: relative;
+  color: hsl(172, 67%, 45%);
+  font-size: 2rem;
+  bottom: 9px;
+}
+
+.left-1 h5,
+.left-2 h5 {
+  color: hsl(184, 14%, 56%);
+  font-size: 0.6rem;
+}
+
+.wrapper-left {
+  padding: 8px;
+  width: 350px;
+}
+
+.bill h4,
+.tip h4,
+.people h4 {
+  color: hsl(186, 14%, 43%);
+  font-size: 0.7rem;
+}
+
+input[type="number"] {
+  background-color: hsl(189, 41%, 97%);
+  border: none;
+}
+
+#bill-price,
+#people {
+  width: 270px;
+  height: 30px;
+  border-radius: 4px;
+  margin-top: 6px;
+  font-family: "Space Mono", monospace;
+  font-size: 1.4rem;
+  text-align: end;
+  padding-right: 3px;
+}
+
+.tip {
+  padding-top: 30px;
+}
+
+#custom {
+  width: 77px;
+  font-size: 1rem;
+  border-radius: 7px;
+  border: none;
+  font-family: "Space Mono", monospace;
+  text-align: center;
+}
+
+#custom::-webkit-outer-spin-button,
+#custom::-webkit-inner-spin-button,
+#bill-price::-webkit-inner-spin-button,
+#bill-price::-webkit-outer-spin-button, 
+#people::-webkit-inner-spin-button,
+#people::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.tip-percent {
+  padding-top: 10px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  row-gap: 10px;
+}
+
+.tip-btn {
+  padding: 8px;
+  width: 77px;
+  font-family: "Space Mono", monospace;
+  background-color: hsl(183, 100%, 15%);
+  color: white;
+  font-size: 1rem;
+  border-radius: 7px;
+  border: none;
+}
+
+.people {
+  padding-top: 30px;
+}
+
+#people:focus {
+  outline: 2px solid orange;
+}
+
+#bill-price:focus, #custom:focus {
+  outline: 2px solid hsl(172, 67%, 45%);
+}
+
+.people h4.new {
+  color: orange;
+  font-size: 0.7rem;  
+  position: absolute;
+  bottom: 59px;
+  left: 207px;
+}
+
+.tip-btn:hover {
+  cursor: pointer;
+}
+
+.tip-btn.new1{
+  background-color: hsl(172, 67%, 45%);
+}
+
+#splitter {
+  position: absolute;
+  font-size: 1.2rem;
+  top: 20vh;
+  left: 96vh;
+  color: hsl(155, 84%, 20%);
+  letter-spacing: 0.5rem;
+}
+
+#person {
+  position: absolute;
+  z-index: 1;
+  height: 12px;
+  top: 495px;
+  left: 480px;
+}
+
+#dollar {
+  position: absolute; 
+  z-index: 1;
+  height: 12px;
+  top: 267px;
+  left: 480px;
+}
