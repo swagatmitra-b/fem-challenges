@@ -1,0 +1,184 @@
+@import url("https://fonts.googleapis.com/css2?family=Epilogue:wght@500;700&display=swap");
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+body {
+  max-height: 100vh;
+  font-family: "Epilogue", sans-serif;
+  background-color: black;
+  overflow-y: hidden;
+}
+.container {
+  max-width: 93%;
+  margin: 0 auto;
+  background-color: white;
+  padding-bottom: 96px;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 37px 50px;
+}
+ul {
+  position: relative;
+  display: flex;
+  list-style: none;
+  padding-left: 55px;
+  font-size: 0.9rem;
+  gap: 40px;
+  top: 8px;
+  color: hsl(0, 0%, 41%);
+}
+.right,
+.left {
+  display: flex;
+}
+
+.right button {
+  font-family: "Epilogue";
+  background-color: transparent;
+  border: 2px solid hsl(0, 0%, 41%);
+  border-radius: 10px;
+  padding: 10px 20px;
+  color: hsl(0, 0%, 41%);
+}
+p.login {
+  color: hsl(0, 0%, 41%);
+}
+.login {
+  position: relative;
+  top: 10px;
+  right: 40px;
+}
+li.career,
+li.about {
+  position: relative;
+  top: 2px;
+  padding-left: 5px;
+}
+li.about {
+  right: 10px;
+  bottom: 2px;
+}
+.mainflex {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}
+.box2 img {
+  height: 520px;
+}
+.box1 {
+  padding-top: 90px;
+  width: 500px;
+}
+.box1 h1 {
+  font-size: 4rem;
+}
+.box1 p {
+  padding-top: 40px;
+  font-size: 1rem;
+  color: hsl(0, 0%, 41%);
+  line-height: 1.4;
+}
+.box1 button {
+  margin-top: 35px;
+  font-family: "Epilogue", sans-serif;
+  padding: 13px 27px;
+  background-color: black;
+  color: white;
+  border-radius: 12px;
+}
+.logoflex {
+  margin-top: 80px;
+}
+img.data {
+  height: 17px;
+}
+img.audio {
+  position: relative;
+  left: 25px;
+  top: 5px;
+  height: 28px;
+}
+img.meet {
+  position: relative;
+  height: 18px;
+  left: 53px;
+}
+img.maker {
+  position: relative;
+  top: 2px;
+  left: 79px;
+}
+
+ul li:hover {
+  cursor: pointer;
+  color: black;
+}
+button.regis:hover,
+.right p:hover {
+  cursor: pointer;
+  color: black;
+  border-color: black;
+}
+button.learn:hover {
+  cursor: pointer;
+  background-color: transparent;
+  color: black;
+  transition: 0.3s ease-in-out;
+}
+a {
+    position: relative;
+    top: 2px;
+    text-decoration: none;
+    color: hsl(0, 0%, 41%);
+}
+
+a:hover {
+    color: black;
+}
+
+a img{
+    position: relative;
+    bottom: 15px;
+    left: 70px
+}
+
+ul.features-1.reveal1 {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    position: absolute;
+    left: -20px;
+    top: 40px;
+}
+
+ul.features-1 {
+    display: none;
+}
+
+ul.company-1.reveal2 {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    position: absolute;
+    top: 44px;
+    left: 120px;
+}
+
+ul.company-1 {
+    display: none;
+}
+
+img.reminder {
+  position: relative;
+  left: 1px;
+}
+
+ul.features-1.reveal1:hover, ul.company-1.reveal2:hover {
+  cursor: pointer;
+}

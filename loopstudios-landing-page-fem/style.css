@@ -1,0 +1,273 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&family=Josefin+Sans:wght@300&display=swap');
+/* font-family: 'Alata', sans-serif;
+font-family: 'Josefin Sans', sans-serif; */
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body
+{
+    font-family: 'Alata', sans-serif;
+    background-color: black;
+}
+.container
+{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+img.hero
+{
+    position: absolute;
+    z-index: -1;
+    
+}
+nav
+{
+    display: flex;
+    justify-content: space-between;
+    padding: 70px 166px;
+
+}
+ul
+{
+    display: flex;
+    list-style: none;
+    gap: 35px;
+    color: white;
+    font-size: 0.89rem;
+}
+.title-box
+{
+    padding-top: 40px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 28px;
+    border: 2px solid white;
+    width: 650px;
+    margin-top: 50px;
+    margin-left: 165px;
+}
+.title-box h1
+{
+    
+    font-family: 'Josefin Sans', sans-serif;
+    color: white;
+    font-weight: 300;
+    font-size: 4.4rem;
+    line-height: 1;
+    letter-spacing: 0.07rem;
+}
+.box2
+{
+    margin-top: 140px;
+    background-color: white;
+}
+.box2 img
+{
+    position: relative;
+    top: 160px;
+    z-index: 1;
+    left: 165px;
+}
+.sub-box
+{
+    position: relative;
+    padding: 92px 90px;
+    margin-left: 735px;
+    background-color: white;
+    width: 650px;
+    top: -160px;
+    z-index: 2;
+   
+}
+.sub-box h1
+{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 3rem;
+    font-weight: 300;
+}
+.sub-box p 
+{
+    padding-top: 30px;
+    color: hsl(0, 0%, 55%);
+    line-height: 1.5rem;   
+}
+.fillerbox
+{
+    display: flex;
+    justify-content: space-between;
+    margin-top: -70px;
+}
+.fillerbox h1
+{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 3rem;
+    font-weight: 300;
+    margin-left: 165px;
+}
+.box3
+{
+    background-color: white;
+}
+button
+{
+    padding: 0px 40px;
+    background-color: transparent;
+    font-family: 'Alata', sans-serif;
+    font-size: 0.9rem;
+    letter-spacing: 3px;
+    font-weight: 300;
+    margin-right: 140px;
+    text-align: center;
+    height: 40px;
+}
+.grid-box
+{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin-left: 171px;
+    margin-top: 90px;
+    justify-items: stretch;
+    padding-bottom: 90px;
+    
+}
+.grid-box img
+{
+    height: 450px;
+    width: 260px;
+
+}
+.grid-box h2
+{
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 300;
+    font-size: 1.9rem; 
+    position: relative;
+    bottom: 100px;
+    color: white; 
+
+}
+.item1 h2
+{
+    position: relative;
+    bottom: 90px;
+    left: 40px;
+    
+}
+.item2 img, .item6 img
+{
+    position: relative;
+    right: 27px;
+}
+.item3 img, .item7 img
+{
+    position: relative;
+    right: 54px;
+}
+.item4 img, .item8 img
+{
+    position: relative;
+    right: 81px;
+}
+.item2 h2
+{
+    left: 10px;
+}
+.item3 h2
+{
+    right: 15px;
+}
+.item4 h2
+{
+    right: 43px;
+}
+.item5 img, .item6 img, .item7 img, .item8 img
+{
+    position: relative;
+    bottom: 27px;
+}
+.item5 h2
+{
+    position: relative;
+    left: 35px;
+    bottom: 120px;
+}
+.item6 h2
+{
+    position: relative;
+    left: 10px;
+    bottom: 121px;
+}
+.item7 h2
+{
+    position: relative;
+    right: 20px;
+    bottom: 120px;
+}
+.item8 h2
+{
+    position: relative;
+    bottom: 120px;
+    right: 45px;
+}
+.firstbox
+{
+    display: flex;
+    justify-content: space-between;
+    padding: 47px 150px;
+}
+img.logo
+{
+    position: relative;
+    height: 25px;
+    left: 21px;
+}
+.socialflex
+{
+    position: relative;
+    left: 13px;
+    display: flex;
+    gap: 17px;
+    height: 23px;
+}
+.secondbox
+{
+    position: relative;
+    bottom: 25px;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 40px;
+}
+.corp
+{
+    color: hsl(0, 0%, 55%);
+    position: relative;
+    right: 130px;
+}
+.links
+{
+    position: relative;
+    left: 169px;
+}
+.links li:hover, .box1 li:hover, .socialflex:hover
+{
+    cursor: pointer;
+    text-decoration: 2px underline white;
+    text-underline-offset: 0.5rem;
+    
+}
+.grid-box img:hover
+{
+    cursor: pointer;
+    opacity: 0.4;
+    transition: all 0.5s ease-in-out;
+}
+button:hover
+{
+    background-color: black;
+    color: white;
+    transition: 0.3s ease;
+    cursor: pointer;
+}
