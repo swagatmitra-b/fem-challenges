@@ -1,3 +1,3 @@
 # FEM-Challenges
 
-This is a repo containing all of my code from the frontend-mentor challenges I attemped
+This is a repo containing all of my code from the Frontend-Mentor challenges I attemped
