@@ -1,0 +1,35 @@
+
+.wrapper {
+    padding: 2.2rem 2rem;
+}
+
+.header h2{
+    font-size: 1.8rem;
+    color: hsl(213, 96%, 18%);
+}
+
+.header p {
+    margin-top: 10px;
+    color: hsl(231, 11%, 63%);
+}
+
+label {
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+    font-size: 0.9rem;
+    font-weight: 500;
+}
+
+input {
+    border-radius: 7px;
+    height: 2.3rem;
+    border: 1px solid hsl(229, 24%, 87%);
+}
+
+.form {
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}

@@ -1,0 +1,40 @@
+.wrapper1 {
+  border-radius: 15px;
+  padding: 2rem;
+  width: 250px;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  background-size: cover;
+  background-image: url(/images/bg-sidebar-desktop.svg);
+  background-repeat: no-repeat;
+}
+
+.steps h4 {
+  font-size: 0.8rem;
+  font-weight: 400;
+  color: hsl(228, 100%, 84%);
+}
+
+.steps h3 {
+  color: white;
+  font-size: 0.9rem;
+}
+
+.steps {
+  display: flex;
+  gap: 20px;
+}
+
+.circle {
+  border: 1px solid white;
+  border-radius: 50%;
+  width: 2rem;
+  text-align: center;
+}
+
+.circle p {
+  position: relative;
+  top: 5px;
+  color: white;
+}

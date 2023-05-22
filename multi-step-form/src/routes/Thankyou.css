@@ -1,0 +1,22 @@
+.leader {
+    padding-top: 7rem;
+    text-align: center;
+}
+
+.leader img{
+    scale: 0.9;
+}
+
+.leader h1 {
+   margin-top: 0.8rem;
+}
+
+
+.message p {
+    padding-top: 1rem;
+    font-size: 0.95rem;
+    text-align: center;
+    width: 28rem;
+    color: hsl(231, 11%, 63%);
+    line-height: 1.4rem;
+}
